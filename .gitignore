@@ -1,0 +1,33 @@
+# Python cache and local tooling
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Local logs and experiment notes
+*.log
+PhantomShell二开改进需求.md
+
+# Generated payloads and build artifacts
+*.exe
+*.dll
+*.obj
+*.o
+*.exp
+*.lib
+*.pdb
+*.zip
+*.7z
+*.tar
+output/
+c_beacon/output/
+go_beacon/output/
+
+# Local configuration
+config.local.*
+*.local.json
+
+# Local console encoding test files
+01.bat
+1.reg
